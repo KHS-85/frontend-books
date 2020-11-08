@@ -1,0 +1,38 @@
+.navbar_link{
+    color: rgb(187, 187, 187);
+    text-decoration: none;
+  }
+  
+  .navbar_link:hover{
+    text-decoration: none;
+    color: rgb(235, 235, 235);
+  }
+  
+  .navbar_link--active{
+    color: rgb(255, 255, 255);
+  }
+  
+  .navlist{
+    margin-right: 35px;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  
+  ul{
+    padding-inline-start: 0;
+  }
+  
+  .navbar {
+    background-color: black;
+    margin-bottom: 30px;
+  }
+  
+  
+  
+  /* // Remove ugly outline around Bootstrap 4 navbar button */
+  .navbar-toggler:focus, .navbar-toggler:active {
+    color: rgb(165, 163, 163);
+    outline: none;
+    box-shadow: none;
+  }
+  
